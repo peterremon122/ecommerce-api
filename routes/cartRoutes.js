@@ -5,7 +5,7 @@ const {
   getCart,
   addToCart,
   deleteItem,
-} = require("../controllers/cart.controller");
+} = require("../controllers/cartcontroller");
 
 const validateObjectId = require("../middleware/validateObjectId");
 

@@ -7,7 +7,7 @@ const {
   createProduct,
   updateProduct,
   deleteProduct,
-} = require("../controllers/product.controller");
+} = require("../controllers/productcontroller");
 
 const validateObjectId = require("../middleware/validateObjectId");
 
