@@ -1,4 +1,4 @@
-# E-Commerce API
+## E-Commerce API
 
 A simple REST API built with Node.js, Express, and MongoDB for managing products and a shopping cart.
 
@@ -52,4 +52,4 @@ MONGO_URI=mongodb://127.0.0.1:27017/ecommerce
 
 * GET `/api/cart`
 * POST `/api/cart`
-* DELETE `/api/cart/:id`
+* DELETE `/api/cart/:id` 
