@@ -3,8 +3,8 @@ require("dotenv").config();
 const express = require("express");
 const connectDB = require("./config/db");
 
-const productRoutes = require("./routes/product.routes");
-const cartRoutes = require("./routes/cart.routes");
+const productRoutes = require("./routes/productRoutes");
+const cartRoutes = require("./routes/cartRoutes");
 const errorMiddleware = require("./middleware/errorMiddleware");
 
 const app = express();
